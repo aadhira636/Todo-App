@@ -17,7 +17,9 @@ const GithubInfo = () => {
     }
 
     setError("");
-    setChartUrl(`https://ghchart.rshah.org/39d353/${userName}`);
+    setChartUrl(
+      `https://github-readme-activity-graph.vercel.app/graph?userName=${userName}`,
+    );
   };
 
   return (
